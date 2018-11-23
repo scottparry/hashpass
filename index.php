@@ -147,7 +147,7 @@
             <p>
 	            Released under the <a href="//github.com/scottparry/hashpass/blob/master/LICENSE" target="_blank">GPL v3 license</a>. 
   
-                Copyright &copy; 2018 <a href="#" target="_blank"><i class="fas fa-shield-alt"></i> H@$hPa$$</a>. 
+                Copyright &copy; 2018 <a href="#"><i class="fas fa-shield-alt"></i> H@$hPa$$</a>. 
                 <br> 
                 Icons by <a href="//fontawesome.com/" target="_blank">FontAwesome</a>.
             </p>
