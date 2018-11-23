@@ -3,7 +3,7 @@
 ### Description
 <p>HashPass is a Stateless Password Manager written in PHP.</p>
 
-<p>Using the same input of full name, website & master password, HashPass will always return the same secure password. This means you do not need to store passwords anywhere, ever!</p>
+<p>Using the same input of full name, website & master password, HashPass will always return the same secure password. This means you only need to remember your master password to use secure passwords everywhere. You also do not need to store passwords anywhere, ever!</p>
 
 <p>Simply access HashPass whenever you need to recalculate a password.</p>
 
