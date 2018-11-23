@@ -38,7 +38,7 @@
                 <!-- nav -->
                 <nav id="primary">
                     <div id="site-logo">
-                        <h1><a href="#index"><i class="fas fa-shield-alt"></i> H@$hPa$$</a></h1>
+                        <h1><a href="#"><i class="fas fa-shield-alt"></i> H@$hPa$$</a></h1>
                     </div>
 
                     <ul>
@@ -130,7 +130,7 @@
                     <div class="one-third">
                         <h5>Open.</h5>
                         <p>Nothing to hide. HashPass is open source. Meaning it's free, auditable, community driven and can be hosted wherever you like.</p>
-                        <p>All source code is available to view, contribute or fork on GitHub.</p>
+                        <p>All source code is available to view, contribute or fork on <a href="//github.com/scottparry/hashpass" title="GitHub" target="_blank">GitHub</a>.</p>
                     </div>
 
                 </div>
@@ -144,8 +144,13 @@
     <!-- footer -->
     <footer id="main">
         <div id="copyright" class="boxed">
-            <p>Released under the <a href="//github.com/scottparry/hashpass/blob/master/LICENSE" target="
-                ">GPL v3 license</a>. Copyright &copy; 2018 <a href="//github.com/scottparry/hashpass" target="_blank"><i class="fas fa-shield-alt"></i> H@$hPa$$</a>. <a href="//fontawesome.com/" target="_blank">Icons by FontAwesome</a>.</p>
+            <p>
+	            Released under the <a href="//github.com/scottparry/hashpass/blob/master/LICENSE" target="_blank">GPL v3 license</a>. 
+  
+                Copyright &copy; 2018 <a href="#" target="_blank"><i class="fas fa-shield-alt"></i> H@$hPa$$</a>. 
+                <br> 
+                Icons by <a href="//fontawesome.com/" target="_blank">FontAwesome</a>.
+            </p>
         </div>
     </footer>
     <!-- /footer -->
