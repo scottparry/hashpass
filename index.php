@@ -144,7 +144,8 @@
     <!-- footer -->
     <footer id="main">
         <div id="copyright" class="boxed">
-            <p>Released under the <a href="//github.com/scottparry/hashpass/blob/master/LICENSE">GPL v3 license</a>. Copyright &copy; 2018 <a href="//github.com/scottparry/hashpass"><i class="fas fa-shield-alt"></i> H@$hPa$$</a>.</p>
+            <p>Released under the <a href="//github.com/scottparry/hashpass/blob/master/LICENSE" target="
+                ">GPL v3 license</a>. Copyright &copy; 2018 <a href="//github.com/scottparry/hashpass" target="_blank"><i class="fas fa-shield-alt"></i> H@$hPa$$</a>. <a href="//fontawesome.com/" target="_blank">Icons by FontAwesome</a>.</p>
         </div>
     </footer>
     <!-- /footer -->
