@@ -43,7 +43,7 @@
 
                     <ul>
                         <li><a href="#how"><i class="far fa-question-circle"></i> How It Works</a></li>
-                        <li><a href="#"><i class="fab fa-github"></i> View Source</a></li>
+                        <li><a href="//github.com/scottparry/hashpass"><i class="fab fa-github"></i> View Source</a></li>
                     </ul>
                 </nav>
                 <!-- /nav -->
@@ -144,7 +144,7 @@
     <!-- footer -->
     <footer id="main">
         <div id="copyright" class="boxed">
-            <p>Released under the <a href="#">GPL v3 license</a>. Copyright &copy; 2018 <a href="#index"><i class="fas fa-shield-alt"></i> H@$hPa$$</a>.</p>
+            <p>Released under the <a href="//github.com/scottparry/hashpass/blob/master/LICENSE">GPL v3 license</a>. Copyright &copy; 2018 <a href="//github.com/scottparry/hashpass"><i class="fas fa-shield-alt"></i> H@$hPa$$</a>.</p>
         </div>
     </footer>
     <!-- /footer -->
