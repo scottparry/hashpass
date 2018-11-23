@@ -129,7 +129,7 @@
 
                     <div class="one-third">
                         <h5>Open.</h5>
-                        <p>We've got nothing to hide. HashPass is open source. Meaning it's free, auditable, community driven and can be hosted wherever you like.</p>
+                        <p>Nothing to hide. HashPass is open source. Meaning it's free, auditable, community driven and can be hosted wherever you like.</p>
                         <p>All source code is available to view, contribute or fork on GitHub.</p>
                     </div>
 
