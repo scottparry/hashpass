@@ -1,0 +1,489 @@
+/**
+ * Typography
+ */
+html
+{
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+body
+{
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+    color: #252525;
+}
+
+a
+{
+	font-weight: inherit;
+	font-size: inherit;
+    color: inherit;
+	text-decoration: inherit;
+	-webkit-transition: 100ms linear all;
+	-moz-transition: 100ms linear all;
+	transition: 100ms linear all;
+}
+
+a:active
+{
+	color: inherit;
+}
+
+a:focus
+{
+	outline: 0;
+}
+
+a:hover,
+a:active
+{
+	outline: 0;
+}
+
+b,
+strong
+{
+	color: inherit;
+	font-size: inherit;
+	font-weight: 700;
+}
+
+blockquote
+{
+	float: left;
+  	quotes: "\201C""\201D";
+  	text-align: left;
+}
+
+blockquote:before
+{
+    content: "”";
+    font-size: 64px;
+    float: left;
+    margin: 32px 10px 0 0;
+}
+
+blockquote,
+blockquote p
+{
+    font-weight: 600;
+    font-size: 130%;
+    line-height: 1.4em;
+    color: #111111;
+}
+
+blockquote p
+{
+	width: 100%;
+    float: left;
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+}
+
+blockquote cite
+{
+	float: left;
+	font-size: smaller;
+	font-weight: 400;
+	color: #aaaaaa;
+}
+
+.post-format-quote blockquote
+{
+    text-align: center;
+}
+
+.post-format-quote blockquote:before
+{
+    width: 100%;
+    float: left;
+  	color: #dddddd;
+  	content: open-quote;
+  	font-size: 4em;
+  	line-height: 0.1em;
+  	margin-top: 0.25em;
+  	text-align: center;
+}
+
+span
+{
+	color: inherit;
+  	font-size: inherit;
+  	font-weight: inherit;
+}
+
+i, em, var, dfn
+{
+    font-style: italic;
+}
+
+cite
+{
+    font-style: normal;
+}
+
+hr
+{
+	display: inline-block;
+	height: 0px;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #eeeeee;
+	margin: 0;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+ins
+{
+	text-decoration: none;
+}
+
+mark
+{
+	background: #ffffe0;
+	font-style: italic;
+	font-weight: bold;
+}
+
+address
+{
+	display: block;
+	margin-bottom: 18px;
+	font-style: normal;
+}
+
+abbr[title],
+acronym[title]
+{
+	text-decoration: none;
+}
+
+pre,
+code,
+kbd,
+samp
+{
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace!important;
+	font-size: 13px;
+	line-height: 14px;
+}
+
+:not pre > code
+{
+	background: #f5f5f5;
+	border: 1px solid #dddddd!important;
+	padding: 3px 5px;
+	border-radius: 2px;
+}
+
+pre
+{
+	border: 1px solid #eeeeee!important;
+    display: block;
+	overflow: hidden;
+	padding: 25px!important;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 2px;
+	white-space: pre-wrap;
+    word-wrap: break-word;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+}
+
+q
+{
+	quotes: none;
+}
+q:before,
+q:after
+{
+	content: "";
+	content: none;
+}
+
+small
+{
+	font-size: 12px;
+}
+/**
+ * Position subscript and superscript
+ * content without affecting line-height.
+ */
+sub,
+sup
+{
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup
+{
+	top: -0.5em;
+}
+
+sub
+{
+	bottom: -0.25em;
+}
+/**
+ * Give paragraphs some default styling.
+ */
+p
+{
+	margin: 0 0 2em 0;
+}
+/**
+ * Lists
+ */
+ul,
+ol
+{
+	margin: 0 0 2em 1.2em;
+	padding: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul
+{
+	margin-bottom: 0;
+}
+
+ul
+{
+	list-style: disc;
+}
+
+ol
+{
+	list-style: decimal;
+}
+
+ol.roman
+{
+	list-style: upper-roman;
+}
+
+li
+{
+	line-height: 28px;
+}
+
+dl
+{
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+dl dt
+{
+	font-weight: 600;
+}
+
+dl dd
+{
+	margin-left: 0;
+	margin-bottom: 15px;
+}
+/**
+ * Cancel list styling if needed
+ */
+.nolist,
+.nolist
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+p.has-drop-cap:not(:focus):first-letter
+{
+	font-size: 400%;
+	line-height: 0.9em;
+}
+/**
+ * Set heading styles
+ */
+h1, h2, h3, h4, h5, h6
+{
+    -webkit-margin-before: 1.2em;
+	-webkit-margin-after: 1.2em;
+	font-weight: 600;
+    line-height: 1.4em;
+    color: #111111;
+	position: relative;
+}
+
+.subheading
+{
+	margin-top: -15px;
+	opacity: 0.75;
+}
+/**
+ * We probably don't want list-styles if it's in a navigation.
+ */
+nav ul,
+nav ol,
+#nav ul,
+#nav ol,
+#navigation ul,
+#navigation ol,
+.nav
+{
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Responsive Media Queries
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+/**
+ * Mobile
+ */
+h1
+{
+    font-size: 180%;
+}
+
+h2
+{
+    font-size: 160%;
+}
+
+h3
+{
+    font-size: 140%;
+}
+
+h4
+{
+    font-size: 120%;
+}
+
+h5
+{
+    font-size: 110%;
+}
+
+h6
+{
+    font-size: 100%;
+}
+
+blockquote
+{
+	width: 110%;
+   	margin: 0 0 25px -25px;
+   	padding: 25px;
+}
+/**
+ * Large Mobiles / Small Tablets
+ */
+@media only screen and (min-width: 480px) {
+
+}
+/**
+ * Tablets
+ */
+@media only screen and (min-width: 767px) {
+    h1
+    {
+    	font-size: 220%;
+    }
+
+    h2
+    {
+    	font-size: 180%;
+    }
+
+    h3
+    {
+    	font-size: 160%;
+    }
+
+    h4
+    {
+    	font-size: 140%;
+    }
+
+    h5
+    {
+    	font-size: 120%;
+    }
+
+    h6
+    {
+        font-size: 110%;
+    }
+}
+/**
+ * Tablets Landscape
+ */
+@media only screen and (min-width: 1023px) {
+	blockquote
+	{
+		width: 120%;
+	   	margin: 25px 0 75px -75px;
+	   	padding: 25px 50px;
+	}
+}
+/**
+ * Small Desktops
+ */
+@media only screen and (min-width: 1278px) {
+    h1
+    {
+    	font-size: 280%;
+    }
+
+    h2
+    {
+    	font-size: 220%;
+    }
+
+    h3
+    {
+    	font-size: 200%;
+    }
+
+    h4
+    {
+    	font-size: 160%;
+    }
+
+    h5
+    {
+    	font-size: 140%;
+    }
+}
+/**
+ * Medium Desktops
+ */
+@media only screen and (min-width: 1678px) {
+
+}
+/**
+ * Large Desktops
+ */
+@media only screen and (min-width: 1918px) {
+
+}

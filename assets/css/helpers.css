@@ -1,0 +1,323 @@
+/**
+ * Highlight
+ */
+.highlight
+{
+ 	background: #fff5d1;
+	color: #111111;
+}
+/**
+ * Spacer
+ */
+.spacer
+{
+	width: 100%;
+	float: left;
+	padding: 25px 0;
+}
+/**
+ * Padder
+ */
+.padder
+{
+	padding: 50px;
+}
+/**
+ * Wrap
+ */
+.wrap
+{
+	width: 75%;
+	margin: 0 auto;
+}
+/**
+ * Snippet
+ */
+.snippet
+{
+	font-size: large;
+	color: #111111;
+	margin-bottom: 35px;
+}
+/**
+ * Styled Ampersand
+ */
+span.fancy-amp
+{
+	font-family: Baskerville, Palatino, "Book Antiqua", serif!important;
+  	font-style: italic;
+  	color: inherit;
+  	font-size: larger;
+}
+/**
+ * Stylized Headings
+ */
+.fancy-heading
+{
+	color: #111111;
+	width: 100%;
+}
+
+.fancy-heading:after
+{
+	background: #111111;
+    display: block;
+    height: 2px;
+    width: 5%;
+    content: " ";
+    margin: 25px 0;
+}
+/**
+ * Cancel list styles
+ */
+.nolist
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/**
+ * Cancel margins
+ */
+.no-margin
+{
+	margin: 0;
+}
+
+.no-top-margin
+{
+	margin-top: 0;
+}
+
+.no-bottom-margin
+{
+	margin-bottom: 0;
+}
+
+.no-left-margin
+{
+	margin-left: 0;
+}
+
+.no-right-margin
+{
+	margin-right: 0;
+}
+/**
+ * Cancel padding
+ */
+.no-padding
+{
+	padding: 0!important;
+}
+
+.no-top-padding
+{
+	padding-top: 0;
+}
+
+.no-bottom-padding
+{
+	padding-bottom: 0;
+}
+
+.no-left-padding
+{
+	padding-left: 0;
+}
+
+.no-right-padding
+{
+	padding-right: 0;
+}
+/**
+ * Cancel borders
+ */
+.no-border
+{
+	border: none;
+}
+
+.no-top-border
+{
+	border: none;
+}
+.no-bottom-border
+{
+	border: none;
+}
+
+.no-left-border
+{
+	border: none;
+}
+
+.no-right-border
+{
+	border: none;
+}
+/**
+ * Colors
+ */
+.muted
+{
+	color: #888888;
+}
+/**
+ * Positioning
+ * We're floating left for mobile first.
+ *
+ * Alignright is floated right in the media
+ * queries below.
+ */
+.alignleft
+{
+	float: left!important;
+}
+
+.alignright
+{
+	float: left!important;
+}
+
+.aligncenter
+{
+	float: none!important;
+	margin: 0 auto;
+}
+
+.textleft
+{
+	text-align: left;
+}
+
+.textright
+{
+	text-align: right;
+}
+
+.textcenter
+{
+	text-align: center;
+}
+
+.inline
+{
+	display: inline;
+}
+/**
+ * Hide from screenreaders and browsers.
+ */
+.hidden
+{
+	display: none!important;
+	visibility: hidden;
+}
+/**
+ * Hide only visually, but have it available
+ * for screenreaders.
+ */
+.visuallyhidden
+{
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+/**
+ * Extends the .visuallyhidden class to allow
+ * the element to be focusable when navigated
+ * to via the keyboard.
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus
+{
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+/**
+ * Hide visually and from screenreaders, but
+ * maintain layout
+ */
+.invisible
+{
+	visibility: hidden;
+}
+/**
+ * Floats
+ */
+.clearfix:before,
+.clearfix:after
+{
+	content: "";
+	display: table;
+}
+
+.clearfix:after
+{
+	clear: both;
+}
+
+.clearfix
+{
+	zoom: 1;
+}
+/**
+ * Misc
+ */
+.help-text
+{
+	font-size: 12px;
+}
+/**
+ * iPads (portrait)
+ */
+@media only screen and (min-width: 767px) {
+	.padder
+	{
+	    padding: 75px 50px;
+	}
+}
+/**
+ * iPads (landscape)
+ */
+@media only screen and (min-width: 1023px) {
+	.alignleft
+	{
+		float: left!important;
+	}
+
+	.alignright
+	{
+		float: right!important;
+	}
+}
+/**
+ * Small Desktops
+ */
+@media only screen and (min-width: 1278px) {
+	.padder
+	{
+	    padding: 150px 100px;
+	}
+}
+/**
+ * Medium Desktops
+ */
+@media only screen and (min-width: 1678px) {
+
+}
+/**
+ * Large Desktops
+ */
+@media only screen and (min-width: 1918px) {
+
+}

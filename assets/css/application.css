@@ -1,0 +1,502 @@
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Base Styles
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+html,
+body
+{
+	height: 100%;
+}
+
+body
+{
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+	-webkit-transition: 150ms linear all;
+	-moz-transition: 150ms linear all;
+	transition: 150ms linear all;
+}
+
+body,
+#wrapper
+{
+	background: #ffffff;
+}
+
+::-moz-selection
+{
+	background: #fff5d1;
+	text-shadow: none;
+}
+
+::selection
+{
+	background: #fff5d1;
+	text-shadow: none;
+}
+
+::-webkit-input-placeholder
+{
+   color: #aaaaaa;
+   font-size: 16px;
+}
+
+::-moz-placeholder
+{
+   color: #aaaaaa;
+   font-size: 16px;
+}
+
+::-ms-input-placeholder
+{
+   color: #aaaaaa;
+   font-size: 16px;
+}
+
+[placeholder]:focus::-webkit-input-placeholder
+{
+	transition: text-indent 0.4s 0.4s ease;
+  	text-indent: -100%;
+}
+
+[placeholder]:focus::-moz-placeholder
+{
+	transition: text-indent 0.4s 0.4s ease;
+	text-indent: -100%;
+}
+
+[placeholder]:focus::-ms-input-placeholder
+{
+	transition: text-indent 0.4s 0.4s ease;
+	text-indent: -100%;
+}
+
+input:-webkit-autofill
+{
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+}
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Header
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+header#main
+{
+    background: #292C3D;
+    width: 100%;
+	float: left;
+	position: relative;
+	z-index: 999;
+}
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Logo
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+#site-logo
+{
+	max-width: 50%;
+	margin: 35px 0 50px 0;
+	position: relative;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+    filter: alpha(opacity=100);
+  	-khtml-opacity: 1;
+  	-moz-opacity: 1;
+  	opacity: 1;
+    -webkit-transition: 150ms linear all;
+	-moz-transition: 150ms linear all;
+	transition: 150ms linear all;
+}
+
+#site-logo:hover
+{
+	filter: alpha(opacity=75);
+    -khtml-opacity: 0.75;
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+}
+
+#site-logo h1
+{
+	color: #ffffff;
+	font-size: 16px;
+	float: left;
+}
+
+#site-logo h1 i
+{
+	font-size: 28px;
+	margin-right: 15px;
+	margin-top: -3px;
+	float: left;
+}
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Primary Navigation
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+#primary
+{
+	width: 100%;
+    float: left;
+	padding: 0 0 25px 0;
+    position: relative;
+    z-index: 9999;
+}
+
+#primary ul
+{
+	display: none;
+	float: right;
+}
+
+#primary ul li
+{
+	color: #ffffff;
+	position: relative;
+	z-index: 99;
+	display: inline;
+	margin: 0 20px 0;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+
+#primary ul li.faded
+{
+	filter: alpha(opacity=20);
+	-khtml-opacity: 0.2;
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+}
+
+#primary ul li a
+{
+	font-size: 14px;
+    font-weight: 500;
+}
+
+#primary ul li a:before
+{
+	content: "";
+  	position: absolute;
+  	width: 100%;
+  	height: 2px;
+  	bottom: 0;
+  	left: 0;
+  	background: #8885f0;
+  	visibility: hidden;
+  	-webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+
+#primary ul li a:hover:before
+{
+  	visibility: visible;
+  	-webkit-transform: scaleX(1);
+  	transform: scaleX(1);
+}
+
+#primary ul li a:hover
+{
+    color: #8885f0!important;
+}
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Generator
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+#intro
+{
+	padding: 50px 0 0 0;
+}
+
+#intro h2
+{
+	color: #ffffff;
+}
+
+#intro p
+{
+	color: rgba( 255, 255, 255, 0.8 );
+	font-size: 17px;
+}
+
+#intro .button
+{
+	display: none;
+}
+
+#generator
+{
+	background: #3B3D4F;
+	color: rgba( 255, 255, 255, 0.5 );
+	border: 1px solid rgba( 0, 0, 0, 0.4 );
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 -3px 15px rgba( 0, 0, 0, 0.05 );
+	padding: 25px;
+	margin: 50px auto 0 auto;
+}
+
+#generator #form-messages
+{
+    width: 100%;
+    float: left;
+}
+
+#generator input
+{
+	position: relative;
+	z-index: 99;
+}
+
+#generator input[type="text"]:focus + i,
+#generator input[type="password"]:focus + i,
+#generator input[type="number"]:focus + i
+{
+	color: #ffffff;
+}
+
+#generator i
+{
+	color: rgba( 255, 255, 255, 0.6 );
+	position: absolute;
+	margin-top: 2px;
+	top: 50%;
+	left: 20px;
+	z-index: 999;
+	-webkit-transition: 150ms linear all;
+	-moz-transition: 150ms linear all;
+	transition: 150ms linear all;
+}
+
+#generator i.fa-clipboard
+{
+	position: absolute;
+	left: auto;
+	right: 20px;
+}
+
+#generator a:hover i
+{
+	color: #ffffff;
+}
+
+#generator a#options
+{
+	color: rgba( 255, 255, 255, 0.5 );
+	font-size: 12px;
+	text-decoration: underline;
+	margin-right: 5px;
+	float: right;
+}
+
+#generator a:hover#options
+{
+	color: #ffffff;
+}
+
+#generator #copied-to-clipboard
+{
+	position: absolute;
+	z-index: 999;
+	padding: 0 3px;
+	color: #8AF9A3;
+	font-size: 13px;
+	display: none;
+}
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Content
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+#wrapper,
+#page
+{
+    width: 100%;
+    float: left;
+}
+
+#page
+{
+	padding: 50px 0;
+}
+
+#page a
+{
+	color: #6661F1;
+	text-decoration: underline;
+}
+
+#page a:hover
+{
+	color: #252525;
+}
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Footer
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+footer#main
+{
+    width: 100%;
+    float: left;
+	position: relative;
+	z-index: 1;
+}
+
+footer#main #copyright
+{
+	border-top: 1px solid #eeeeee;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+footer#main #copyright p
+{
+	color: #888888;
+	font-size: 12px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
+}
+
+footer#main #copyright a
+{
+	color: #6661F1;
+	text-decoration: underline;
+}
+
+footer#main #copyright a:hover
+{
+	color: #252525;
+}
+/*
+----------------------------------------------------------
+----------------------------------------------------------
+
+ Responsive Media Queries
+
+----------------------------------------------------------
+----------------------------------------------------------
+*/
+/**
+ * Mobile
+ */
+.mobile
+{
+	display: inherit;
+}
+
+.notmobile
+{
+	display: none;
+}
+
+.notphone
+{
+	display: none;
+}
+/**
+ * Large Mobiles / Small Tablets
+ */
+@media only screen and (min-width: 480px) {
+
+}
+/**
+ * Tablets
+ */
+@media only screen and (min-width: 767px) {
+	.notphone
+	{
+		display: inherit;
+	}
+	
+	#primary ul
+	{
+		display: inherit;
+	}
+
+	#intro
+	{
+		padding: 50px 50px 0 0;
+	}
+	
+	#intro .button
+	{
+		display: inline-block;
+	}
+}
+/**
+ * Tablets Landscape
+ */
+@media only screen and (min-width: 1023px) {
+	#generator
+	{
+		padding: 50px;
+	}
+}
+/**
+ * Small Desktops
+ */
+@media only screen and (min-width: 1278px) {
+	.mobile
+	{
+		display: none;
+	}
+
+	.notmobile
+	{
+		display: inherit;
+	}
+}
+/**
+ * Medium Desktops
+ */
+@media only screen and (min-width: 1678px) {
+
+}
+/**
+ * Large Desktops
+ */
+@media only screen and (min-width: 1918px) {
+
+}
+/* Fix IE */
+@media screen and (min-width:0\0) {
+
+}

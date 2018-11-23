@@ -1,0 +1,221 @@
+/**
+ * Forms
+ */
+:focus
+{
+    outline-color: transparent;
+    outline-style: none;
+}
+
+form
+{
+	margin: 0 auto;
+}
+
+form ul
+{
+	margin: 5px 0 5px 0;
+	padding: 0;
+}
+
+form ul li
+{
+	list-style: none;
+}
+
+fieldset
+{
+	margin: 15px 0;
+	padding: 25px;
+	border: 1px solid #eeeeee;
+    width: 100%;
+    float: left;
+}
+
+fieldset ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+fieldset ul li
+{
+	list-style: none;
+}
+/**
+ * Indicate that 'label' will shift focus
+ * to the associated form element
+ */
+label
+{
+    width: 100%;
+    color: #ffffff;
+    color: rgba( 255, 255, 255, 0.5 );
+	font-weight: 400;
+    font-size: 13px;
+	cursor: pointer;
+    -webkit-transition: 250ms linear all;
+    -moz-transition: 250ms linear all;
+    transition: 250ms linear all;
+}
+
+legend
+{
+	border: 0;
+	padding: 0;
+	font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+button,
+input,
+select,
+textarea
+{
+	vertical-align: baseline;
+	*vertical-align: middle;
+}
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"]
+{
+	background: #6661F1;
+    box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.2 );
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+	width: auto;
+	padding: 15px 25px;
+	margin: 15px 0;
+	text-decoration: none;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: 150ms linear all;
+	-moz-transition: 150ms linear all;
+	transition: 150ms linear all;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    border: none;
+}
+
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover
+{
+    background: #8885f0;
+    box-shadow: none!important;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea
+{
+    background: linear-gradient( 180deg, #24252f, #313342 );
+    box-shadow: 0 1px 0 rgba( 255, 255, 255, 0.08 );
+    text-indent: 0;
+	-webkit-appearance: none;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #ffffff;
+    width: 100%;
+	padding: 15px 20px 15px 50px;
+	margin-bottom: 10px;
+	border: 1px solid rgba( 0, 0, 0, 0.2 );
+    -webkit-transition: 150ms linear all;
+    -moz-transition: 150ms linear all;
+    transition: 150ms linear all;
+}
+
+input[type="number"]
+{
+    padding: 15px 0 15px 10px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+textarea:focus
+{
+    border: 1px solid #6661F1;
+}
+
+input[type="number"]
+{
+    margin-right: 5px;
+    float: left;
+}
+
+input[type="file"]
+{
+	padding: 5px;
+	border: none;
+}
+
+select
+{
+    position: relative;
+    z-index: 1;
+	font-size: 14px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f9f9f9;
+    width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+	border: none;
+	cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid #eeeeee;
+}
+
+textarea
+{
+	min-height: 150px;
+}
+
+input[type="checkbox"]
+{
+    margin: 0!important;
+    display: none!important;
+}
+
+input[type="checkbox"] + span
+{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-left: 3px;
+    float: left;
+}
+
+input[type="checkbox"] + span:before
+{
+    font-weight: normal;
+    font-family: "FontAwesome";
+    content: "\f096";
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked + span:before
+{
+    content: "\f046";
+}

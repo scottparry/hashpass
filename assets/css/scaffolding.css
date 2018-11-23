@@ -1,0 +1,188 @@
+/**
+ * Scaffolding
+ */
+.boxed
+{
+    width: 90%;
+	margin: 0 auto;
+}
+
+.fullwidth
+{
+    width: 90%;
+	margin: 0 auto;
+}
+
+.one-full,
+.one-half,
+.one-third,
+.two-third,
+.one-quarter,
+.three-quarter,
+.one-fifth,
+.two-fifth,
+.three-fifth,
+.four-fifth,
+.has-2-columns .wp-block-column,
+.has-3-columns .wp-block-column,
+.has-4-columns .wp-block-column,
+.has-5-columns .wp-block-column,
+.has-6-columns .wp-block-column
+{
+	width: 100%;
+	margin: 0;
+	padding-right: 0;
+	position: relative;
+	float: left;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.has-2-columns,
+.has-3-columns,
+.has-4-columns,
+.has-5-columns,
+.has-6-columns,
+.has-2-columns .wp-block-column,
+.has-3-columns .wp-block-column,
+.has-4-columns .wp-block-column,
+.has-5-columns .wp-block-column,
+.has-6-columns .wp-block-column
+{
+    display: inherit!important;
+}
+/**
+ * iPads (portrait)
+ */
+@media only screen and (min-width: 767px) {
+
+}
+/**
+ * iPads (landscape)
+ */
+@media only screen and (min-width: 1023px) {
+    .boxed
+    {
+        width: 85%;
+    }
+
+    .one-half,
+	.one-third,
+	.two-third,
+	.one-quarter,
+	.three-quarter,
+	.one-fifth,
+	.two-fifth,
+	.three-fifth,
+	.four-fifth,
+    .has-2-columns .wp-block-column,
+    .has-3-columns .wp-block-column,
+    .has-4-columns .wp-block-column,
+    .has-5-columns .wp-block-column,
+    .has-6-columns .wp-block-column
+	{
+		padding-right: 25px;
+	}
+
+    .one-half,
+    .has-2-columns .wp-block-column
+    {
+        width: 50%;
+    }
+
+    .one-third,
+    .has-3-columns .wp-block-column
+    {
+        width: 33.33333%;
+    }
+
+    .two-third
+    {
+        width: 66.66666%;
+    }
+
+    .one-quarter,
+    .has-4-columns .wp-block-column
+    {
+        width: 50%;
+    }
+
+    .three-quarter
+    {
+        width: 100%;
+    }
+}
+/**
+ * Regular Desktops
+ */
+@media only screen and (min-width: 1278px) {
+    .boxed
+    {
+        width: 75%;
+    }
+
+	.one-half,
+    .has-2-columns .wp-block-column
+    {
+        width: 50%;
+    }
+
+    .one-third,
+    .has-3-columns .wp-block-column
+    {
+        width: 33.33333%;
+    }
+
+    .two-third
+    {
+        width: 66.66666%;
+    }
+
+    .one-quarter,
+    .has-4-columns .wp-block-column
+    {
+        width: 25%;
+    }
+
+    .three-quarter
+    {
+        width: 75%;
+    }
+
+    .one-fifth,
+    .has-5-columns .wp-block-column
+    {
+        width: 20%;
+    }
+
+    .two-fifth
+    {
+	    width: 40%;
+    }
+
+    .three-fifth
+    {
+	    width: 60%;
+    }
+
+    .four-fifth
+    {
+	    width: 80%;
+    }
+}
+/**
+ * Medium Desktops
+ */
+@media only screen and (min-width: 1678px) {
+
+}
+/**
+ * Large Desktops
+ */
+@media only screen and (min-width: 1918px) {
+	.boxed
+    {
+	    width: 65%;
+    }
+}

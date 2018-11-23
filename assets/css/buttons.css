@@ -1,0 +1,182 @@
+/**
+ * Buttons
+ */
+.button
+{
+    background: #6661F1;
+    box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.2 );
+    border-radius: 3px;
+    color: #ffffff;
+	font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+	width: auto;
+	padding: 10px 20px;
+	margin-bottom: 5px;
+	margin-right: 2px;
+	text-decoration: none;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: 150ms linear all;
+	-moz-transition: 150ms linear all;
+	transition: 150ms linear all;
+	overflow: hidden;
+}
+
+.button
+{
+    text-decoration: none!important;
+}
+
+.button.button-small
+{
+	padding: 3px 8px;
+	font-size: 12px!important;
+}
+
+.button.button-medium
+{
+	padding: 5px 15px;
+	font-size: 14px!important;
+}
+
+.button.button-large
+{
+	padding: 8px 18px;
+	font-size: 16px!important;
+}
+/**
+ * Pink
+ */
+.button.button-pink
+{
+	background: #fe57a1!important;
+	color: #fe57a1!important;
+}
+/**
+ * Green
+ */
+.button.button-green
+{
+	background: #60bfb1!important;
+	color: #60bfb1!important;
+}
+/**
+ * Blue
+ */
+.button.button-blue
+{
+	background: #2daebf!important;
+	color: #2daebf!important;
+}
+/**
+ * Red
+ */
+.button.button-red
+{
+	background: #ff0000!important;
+	color: #ff0000!important;
+}
+/**
+ * Magenta
+ */
+.button.button-magenta
+{
+	background: #a9014b!important;
+	color: #a9014b!important;
+}
+/**
+ * Orange
+ */
+.button.button-orange
+{
+	background: #F16863!important;
+	color: #F16863!important;
+}
+/**
+ * Yellow
+ */
+.button.button-yellow
+{
+	background: #ffb515!important;
+	color: #ffb515!important;
+}
+/**
+ * States
+ */
+.button:hover
+{
+	background: #8885f0!important;
+    box-shadow: none!important;
+    color: #ffffff!important;
+	box-shadow: none;
+}
+
+.button:active
+{
+	top: 1px;
+}
+/**
+ * Tablets Portrait
+ */
+@media only screen and (min-width: 767px) {
+	.button.button-small
+	{
+		padding: 5px 10px;
+		font-size: 12px!important;
+	}
+
+    .button.button-medium
+	{
+		padding: 8px 18px;
+		font-size: 14px!important;
+	}
+
+	.button.button-large
+	{
+		padding: 12px 22px;
+		font-size: 16px!important;
+	}
+}
+/**
+ * Tablets Landscape
+ */
+@media only screen and (min-width: 1023px) {
+	.button
+	{
+		margin-right: 3px;
+	}
+}
+/**
+ * Regular Desktops
+ */
+@media only screen and (min-width: 1278px) {
+	.button.button-small
+	{
+		padding: 6px 12px;
+		font-size: 14px!important;
+	}
+
+	.button.button-medium
+	{
+		padding: 12px 22px;
+		font-size: 16px!important;
+	}
+
+	.button.button-large
+	{
+		padding: 18px 28px;
+		font-size: 18px!important;
+	}
+
+	.button
+	{
+		margin-right: 2px;
+	}
+}
+/**
+ * Medium Desktops
+ */
+@media only screen and (min-width: 1678px) {
+
+}
