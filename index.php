@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600%7CPoppins%3A400%2C500%2C600" media="screen" />
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" media="screen" />
     <link rel="stylesheet" href="assets/css/minified.css.php" media="screen" />
+
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
 </head>
 
 <body id="index">
