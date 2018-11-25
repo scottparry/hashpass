@@ -25,7 +25,7 @@ endif;
  * @param mixed $masterpassword
  */
 if ( ! empty( $_POST['masterpassword'] ) && strlen( $_POST['masterpassword'] ) >= 8 ) :
-    $masterpassword = strip_tags( trim(  $_POST['masterpassword'] ) );
+    $masterpassword = strip_tags( trim( $_POST['masterpassword'] ) );
 endif;
 /**
  * Password length, min 8 chars.
