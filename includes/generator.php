@@ -32,7 +32,7 @@ endif;
  *
  * @param int $length
  */
-if ( ! empty( $_POST['length'] ) && strlen( $_POST['length'] ) >= 8 && is_numeric( $_POST['length'] ) ) :
+if ( ! empty( $_POST['length'] ) && strlen( $_POST['length'] >= 8 ) && is_numeric( $_POST['length'] ) ) :
     $length = strip_tags( trim( $_POST['length'] ) );
 else :
     $length = 16;
